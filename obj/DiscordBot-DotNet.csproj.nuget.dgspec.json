@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bauti\\source\\repos\\dsbotc#\\DiscordBot-DotNet\\DiscordBot-DotNet.csproj": {}
+    "C:\\Users\\bauti\\source\\repos\\dsbotc#\\discordbot-dotnet\\DiscordBot-DotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bauti\\source\\repos\\dsbotc#\\DiscordBot-DotNet\\DiscordBot-DotNet.csproj": {
+    "C:\\Users\\bauti\\source\\repos\\dsbotc#\\discordbot-dotnet\\DiscordBot-DotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bauti\\source\\repos\\dsbotc#\\DiscordBot-DotNet\\DiscordBot-DotNet.csproj",
+        "projectUniqueName": "C:\\Users\\bauti\\source\\repos\\dsbotc#\\discordbot-dotnet\\DiscordBot-DotNet.csproj",
         "projectName": "DiscordBot-DotNet",
-        "projectPath": "C:\\Users\\bauti\\source\\repos\\dsbotc#\\DiscordBot-DotNet\\DiscordBot-DotNet.csproj",
+        "projectPath": "C:\\Users\\bauti\\source\\repos\\dsbotc#\\discordbot-dotnet\\DiscordBot-DotNet.csproj",
         "packagesPath": "C:\\Users\\bauti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bauti\\source\\repos\\dsbotc#\\DiscordBot-DotNet\\obj\\",
+        "outputPath": "C:\\Users\\bauti\\source\\repos\\dsbotc#\\discordbot-dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "DSharpPlus": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[6.0.0-preview.5.21301.5, )"
